@@ -1,0 +1,317 @@
+
+body{
+  /* background-color: bisque; */
+}
+  
+  .row {
+    margin: 8px -16px;
+  }
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  .column {
+    float: left;
+    width: 25%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .content {
+   padding: 10px;
+  }
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  } 
+.head{ 
+  margin-top: 50px;
+ font-size: 35px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-style: normal;  
+ color: rgb(11, 10, 10);
+ text-align: center;
+ 
+}
+.home{
+  background-image:url(/img/pexels-joshua-mcknight-1139319.jpg);
+  background-position:center;
+  background-size: cover;
+   color:whitesmoke;
+   font-size: 50px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+#courses{
+  background-color: rgba(255, 228, 196, 0.106);
+}
+.text-mut{
+  margin-top: 300px;
+}
+#head{
+ background-color: rgba(169,169,169, 0.232);
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.how-section1{
+    border: 3px solid black;
+    margin-top: 50px;
+    /* background-color:rgba(135, 128, 112, 0.636); */
+    
+}
+.how-section1 img{
+    float: right;
+    border-radius: 20px;
+    position: relative;
+    text-align:center;
+    color: black;
+}  
+ #navmenu{
+  /* padding: 20px; */
+padding-left: 400px;
+color: black;
+font-size: 15px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+.heading{
+    color: #220355;
+    font-weight: bold;
+    font-size: 30px;
+}
+img{
+  border-radius: 20px;
+}
+.cnt{
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.teams{
+  margin-top: 100px;
+  font-size: 18px;
+  margin-left: 200px;
+  margin: 20px;
+  font-weight: 100;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.teams img{
+float: right;
+height: 500px;
+width: 500px;
+margin-top: 50px;  
+}
+#about{
+  background-color:  rgba(95, 158, 160, 0.093);;
+}
+.team img{
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;  
+  padding: 20px;
+  border-radius: 20px;
+  }
+
+img:hover{
+  transition:width 3s;
+  transition-delay: 1s;
+}
+
+.heading{
+  text-align: center;
+  /* color: #0d05fb; */
+  margin-top: 50px;
+  color: chocolate;
+}
+.texts{
+  margin-right: 200px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 80px;
+}
+.item{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300px;
+  color:black;
+  font:bolder;
+}
+.item :hover.overlay{
+  opacity: 1;
+}
+.headings{
+  color:whitesmoke;
+  font-size: 20px;
+  /* background-color: rgba(255, 140, 0, 0.587); */
+}
+.heading{
+  text-align: initial;
+  color: #0d05fb;
+  font-size:30px ;
+}
+.text-m{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(10, 8, 8);
+  margin-top: 50px;
+}
+
+  /* min-height: 380px;
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */ */
+
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: green;
+  color:whitesmoke;
+  padding: 16px 20px;
+  
+  cursor: pointer;
+  /* opacity: 0.9; */
+}
+
+.btn:hover {
+  opacity: 1; */
+}
+.copy{
+  font-size: px;
+  padding-bottom: 80px;
+  color: #f1f1f1;
+  padding-right: 200px;
+}
+/* .bg-img{
+  margin-top: 50px;
+} */
+.row{
+  align-items: flex-start;
+  display: table;
+}
+.containers{
+  padding-left: 20px;
+  
+}
+/* .text{
+  margin-left: 50px;
+  text-align: initial; */
+
+.texts{
+  text-align: initial;
+}
+/* .content{
+  background-color: #dcdbf4;
+} */
+.upti{
+  margin-top: 50px;
+}
+.probs{
+  margin-top: 100px;
+}
+
+.col{
+  margin-top: 50px;
+  background-color: rgba(212, 211, 211, 0.404); 
+  margin: 20px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  height: 600px;
+  border-radius: 20px;
+  transition: 5s;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+.col:hover{
+  background-color: cornflowerblue;
+  /* color:rgb(192, 47, 47); */
+  transform:translateY(-10px);
+}
+p{
+  font-size: 18px;
+}
+.headings,
+.column {
+  animation-duration: 8s;
+  animation-name: slidein;
+  
+}
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.column{
+  color:whitesmoke;
+  font-size: 18px;
+  padding: 50px;
+ 
+}
+.cols{
+margin-top: 20px;
+background-color: rgba(212, 211, 211, 0.089);
+margin: 20px;
+font-size: 20px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.footer{
+  background-color:rgb(31, 31, 33);
+  margin-top: 20px;
+  padding-left: 300px;
+  color: whitesmoke;
+
+}
+
+
+.title{
+  margin-top: 200px;
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+  
